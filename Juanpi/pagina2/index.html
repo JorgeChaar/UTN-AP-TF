@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
     integrity="sha384-xrZpG8gMHxhTpZ7Tu7MzKPf5kFxJyC5+flJBt7I/UVW5n5Kq3JQ5t5jK2StzW+pR" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,16 +16,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
     integrity="sha384-xrZpG8gMHxhTpZ7Tu7MzKPf5kFxJyC5+flJBt7I/UVW5n5Kq3JQ5t5jK2StzW+pR" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
   <script src="https://kit.fontawesome.com/f50d76dd0d.js" crossorigin="anonymous"></script>
-  <title>Dr. Calzado -</title>
-
+  <title>Dr. Calzado</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="navbar">
       <picture>
-        <img src="/img/logo1.png" width="200" alt="">
+        <img src="./img/logo.png" width="200" alt="Logo Dr. Calzado">
       </picture>
       <div class="container-fluid">
         <a class="navbar-brand" href=""></a>
@@ -37,20 +36,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="">Mujeres</a>
+              <a class="nav-link " aria-current="page" href="#mujeres">Mujeres</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">Hombres</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sucursales</a>
+              <a class="nav-link " aria-current="page" href="#hombres">Hombres</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Deja tu CV</a>
+              <a class="nav-link" href="#sucursales">Sucursales</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="myBtn" href="#">Outlet </a>
+              <a class="nav-link" href="#contacto">Deja tu CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nosotros">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="myBtn" href="#ofertas">Outlet </a>
             </li>
             <li>
               <button class="btn btn-link" class="carrito"><img class="shop "
@@ -65,7 +66,7 @@
     </nav>
   </header>
 
-  <center>
+  <center id="carousel">
     <div id="carouselExampleFade" class="carousel slide carousel-fade mt-3 ">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -89,7 +90,7 @@
     </div>
   </center>
 
-  <div class="alinear-centro">
+  <div id="ofertas" class="alinear-centro">
     <h2 class="h2white">Ofertas</h2>
     <img class="imagen" src="./img/promo1.webp" width="300" height="300" alt="Imagen 1">
     <img class="imagen" src="./img/promo2.webp" width="300" height="300" alt="Imagen 2">
@@ -98,7 +99,7 @@
     <h2 class="h2white">Hasta Agotar stock</h2>
   </div>
 
-  <div class="divclass" id="Mujeres">
+  <section class="divclass" id="mujeres">
 
     <h4 class="promoMujeres text-center mt-3"> Mujeres </h4>
 
@@ -157,8 +158,9 @@
         </div>
       </div>
     </div>
+   </section>
 
-    <div class="fondohombre">
+    <section class="fondohombre" id="hombres">
 
       <h4 class="promoHombre text-center mt-3"> Hombres </h4>
 
@@ -217,21 +219,67 @@
           </div>
         </div>
       </div>
+    </section>
 
+    <section class="sucur" id="sucursales">
+      <h2>Sucursales</h2>
+      
+      <div class="columna alinear-centro">
+        <h2 class="alinear-centro">Córdoba</h2>
+        <p>San José 426, Cba, C1076AAI
+          <br>
+            351 4383-4209
+          <br>
+            LUN a SÁB 9:00 a 19:30 hs.</p>
+        <img src="./img/map1.jpg" alt="">
+      </div>
+      <div class="columna alinear-centro">
+        <h2 class="alinear-centro">Santa Fé</h2>
+        <p>Pte Roca 1272, Rosario, C1076AAI
+          <br>
+            341 4383-4209
+          <br>
+            LUN a SÁB 9:00 a 19:30 hs.</p>
+        <img class="map2" src="./img/map2.jpg" class="map2" alt="">
+      </div>
+      <div class="columna alinear-centro">
+        <h2 class="alinear-centro">Tucumán</h2>
+        <p>H. Yrigoyen 3199,  Tafí Viejo, B1640
+          <br>
+            0381 4718-5823
+          <br>
+            LUN a SÁB 10:30 a 19:00 hs. </p>
+        <img src="./img/map3.jpg" alt="">
+      </div>
+        
+      
+      
+              <div id="myModal" class="modal mb">
+                <img class="modal-content" src="./img/modal.jpg">
+              </div>
+      
+      
+      <div class="mt-5">
+      
+              <div class="fondoblanco">
+                <img src="./img/btel1.jpg" width="350" height="150" alt="">
+      
+                <img src="./img/btel2.jpg" width="350" height="150" alt="">
+              </div>
+      </div>
+    </section>
 
-
-
-    <div>
-      <div class="trabaja">
-
+    <section class="trabaja" id="contacto">
         <h2 class="tcn">Trabaja con Nosotros</h2>
-
         <div class="container">
-
           <form>
             <div class="form-group">
               <label for="nombre">Nombre:</label>
               <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="form-group">
+              <label for="telefono">Teléfono:</label>
+              <input type="text" class="form-control" id="telefono">
             </div>
             <div class="form-group" class="email">
               <label for="email">Correo electrónico:</label>
@@ -239,59 +287,14 @@
             </div>
             <div class="form-group">
               <label for="mensaje">Mensaje:</label>
-              <textarea name="comentarios" class="form-control" rows="4" cols="10" id="mensaje"></textarea>
+              <textarea name="comentarios" class="form-control" rows="4" cols="6" id="mensaje"></textarea>
             </div>
-            <button type="submit" class="btn btn-warning mt-3">Enviar</button>
+            <button type="submit" class="btn btn-warning mt-3" id="enviarcomentario">Enviar</button>
           </form>
         </div>
-</div>
-
-<div class="sucur" >
-  <h2>Sucursales</h2>
-
-  <div class="columna alinear-centro">
-    <h2 class="alinear-centro">Cordoba</h2>
-    <p>San José 426, Cba, C1076AAI
-
-      351 4383-4209
-
-      LUN a SAB 9.00 a 19.30 hs.</p>
-    <img src="./img/map1.jpg" alt="">
-  </div>
-  <div class="columna alinear-centro">
-    <h2 class="alinear-centro">Santa fe</h2>
-    <p>Pte Roca 1272, Rosario, C1076AAI
-
-      341 4383-4209
-
-      LUN a SAB 9.00 a 19.30 hs.</p>
-    <img class="map2" src="./img/map2.jpg" class="map2" alt="">
-  </div>
-  <div class="columna alinear-centro">
-    <h2 class="alinear-centro">Tucumán</h2>
-    <p>H. Yrigoyen 3199,  Tafí Viejo, B1640
-
-      0381 4718-5823
-
-      LUN a SAB 10.30 a 19.00 hs. </p>
-    <img src="./img/map3.jpg" alt="">
-  </div>
-  
+    </section>
 
 
-        <div id="myModal" class="modal mb">
-          <img class="modal-content" src="./img/modal.jpg">
-        </div>
-
-
-<div class="mt-5">
-
-        <div class="fondoblanco">
-          <img src="./img/btel1.jpg" width="350" height="150" alt="">
-
-          <img src="./img/btel2.jpg" width="350" height="150" alt="">
-        </div>
-</div>
 
 
 
@@ -300,7 +303,7 @@
 
 
         <footer class="pie-pagina mt-5">
-          <div class="grupo-1">
+          <div class="grupo-1" id="nosotros">
             <div class="box">
               <figure class="boxLogo">
                 <a href="#">
