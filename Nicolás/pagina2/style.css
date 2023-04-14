@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*¨ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  color: #000;
+  text-align: center;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.918);
+  display: block;
+
+}
+
+.contenedor{
+  padding-top: 50px;
+}
+
+.carousel {
+  border-radius: 4px;
+  border-color: black;
+  align-items: center;
+  font-size: medium;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  /* Ajusta esta propiedad para establecer la distancia entre las imágenes y el margen inferior */
+
+}
+
+.cajasobre {
+  display: flex;
+  justify-content: center;
+}
+
+.logo2 {
+
+  margin-left: 25px;
+
+}
+
+.cajasobre {
+  margin-top: 70px;
+  background-color: #ffbd59;
+  text-align: justify;
+}
+
+.titulo {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-left: 15px;
+
+
+  margin-top: 50px;
+  background-color: #ffbd59;
+
+}
+
+.parrafo {
+  text-align: justify;
+  margin-top: 15px;
+  margin-left: 25px;
+  font-size: x-large;
+  font-weight: lighter;
+
+
+}
+
+.textoSobre {
+  font-size: xx-large;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.alinear-centro {
+  padding-top: 15px;
+  margin-top: 25px;
+  text-align: center;
+  background-color: grey;
+
+}
+
+.h2white1 {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.h2white2 {
+  color: #fff;
+  margin-top:25px;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+
+}
+
+.divclass {
+  background-color: brown;
+  padding-bottom: 25px;
+}
+
+
+
+.fondoblanco  .image .contenedor{
+  margin-top: 15px;
+  background-color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.talles {
+  color: white;
+  text-shadow: rgb(201, 186, 186) 0.1em 0.1em 0.2em
+}
+
+.promoMujeres {
+  padding-top: 55px;
+  color: rgb(219, 158, 158);
+  text-shadow: rgb(22, 22, 22) 0.1em 0.1em 0.2em;
+  font-size: 2.5rem;
+padding-bottom: 15px;
+}
+
+.fondohombre {
+  background-color: #b1a5a591;
+padding-bottom: 30px;
+}
+
+.promoHombre {
+  padding-top: 55px;
+  color: rgb(226, 28, 28);
+  text-shadow: rgb(238, 236, 236) 0.1em 0.1em 0.2em;
+  font-size: 2.5rem;
+  padding-bottom:15px
+}
+
+.sobrenosotros{
+  text-align: justify;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lgsobre{
+  border-radius: 15px;
+  
+}
+
+.sobnos {
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/sobrenosotros.jpg);
+  filter:grayscale(200%); 
+  color: rgb(2, 2, 2);
+  text-align: center;
+  text-shadow: rgb(75, 40, 40) 0.1em 0.1em 0.2em;
+  padding-bottom: 100px;
+}
+p{
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(12, 12, 12) 0.1em 0.1em 0.2em;
+  text-align: justify;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-weight: bold;
+  font-size: x-large;
+  padding-top: 25px;
+}
+
+ 
+  
+  .row {
+    background-color: #444546;
+    padding-top: 25px;
+    display: flex;
+    justify-content:space-around;
+    padding-left: 150px;
+    color: #eee;
+  }
+  
+  .column  {
+    background-color: #444546;
+    flex: 33.33%;
+    padding: 5px;
+    
+  }
+
+.columna {
+  width: 30%;
+  margin: 0 1.5%;
+  background-color: #eee;
+  padding: 20px;
+}
+
+.trabaja {
+  background-color: gray;
+  margin-top: 5px;
+  color: antiquewhite;
+  padding-top: 55px;
+  padding-bottom: 25px;
+}
+
+.tcn {
+  text-align: center;
+}
+
+
+input[type="text"] {
+  display: flex;
+  width: 300px;
+  height: 25px;
+  font-size: 15px;
+  padding: 2px;
+  justify-content: center;
+
+}
+
+input[type="email"] {
+  display: flex;
+  width: 300px;
+  height: 25px;
+  font-size: 12px;
+  padding: 2px;
+  justify-content: center;
+
+}
+
+#mensaje {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+}
+
+#sucursales {
+  display:flex;
+  justify-items:center;
+}
+
+.boxLogo {
+  text-align: center;
+}
+
+
+
+.pie-pagina {
+  width: 100%;
+  background-color: #000;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+  width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #4d5155;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+  color: aqua;
+}
+
+.pie-pagina .grupo-2 {
+  background-color: #444546;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+  font-size: 15px;
+}
+
+@media screen and (max-width:800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+
+.dire {
+  color: #fff;
+  text-align: center;
+
+}
