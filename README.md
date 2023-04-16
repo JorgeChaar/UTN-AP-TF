@@ -1,44 +1,22 @@
 # UTN-AP-TF
 Trabajo Final Curso UTN Argentina Programa - Grupo 8
 
+#Integrantes
+WALTER SEGUNDO ALBARRACIN (walter_segundo1@hotmail.com)
+JORGE CHAAR (jorgechaar2@gmail.com)
+ALEJANDRA HERRERA (aleherrera_84@hotmail.com)
+JUAN PABLO SAMUEL (juanpisamuel@gmail.com)
+NICOLAS STRUCELJ (nicolas.strucelj@gmail.com)
+
 Trabajo Práctico Integrador
 Objetivo
 Concretar un proyecto aplicando los conocimientos impartidos a lo largo del curso, con la
 finalidad de agregarlo a sus portfolios personales.
 
-Enunciado
+# PROYECTO
+- El objetivo del proyecto fue crear una web tipo ecommerce, en donde los clientes puedan ver los articulos y poder realizar un pedido.
+- Se realizó utilizando el framework bootstrap y adaptando las necesidades a la idea.
 
-Desarrollar una landing page para una organización/emprendimiento/empresa
-(rubro/actividad a elección del estudiante) que cumpla, mínimamente, con los siguientes
-requisitos:
-
-● El sitio debe contar con las siguientes Secciones:
-
-# Presentación de la Organización (Componenete "Nosotros" de NavBar)
-#  Presentación Personal (Componente de "Nostros" )
-# Formulario de Contacto (Componente "Contacto" de NavBar)
-#  Formulario de un Proceso (Ejemplos: Cotización o Reclamo) (Comoponente de "Contacto")
-
-● El sitio debe contar con un Formulario de Proceso:
-
-○ A modo Asistente (Wizard) (Proceso Compra)
-○ Validación de Campos (Proceso Compra)
-○ Generación de Resumen (No Editable) (Proceso Compra)
-○ Exportación a PDF (Proceso Compra)
-
-● El sitio debe utilizar las siguientes Bibliotecas:
-
-○ Uso de Bibliotecas JS
-■ JQuery
-■ Validate.JS
-● El sitio debe contar con una Integración
-○ Consumo de API Externa a través de AJAX
-○ Visualización de los Resultados Obtenidos
-
-Tecnologías a utilizar
-● HTML
-● CSS
-● JS
 
 
 Paso a paso sugerido
@@ -49,9 +27,6 @@ Paso a paso sugerido
 5) Implementación de JS (funcion de suma para el carrito)
 6) Pruebas de Integración (no solicitado)
 
-
-Algunas Sugerencias
-1. Probar cada biblioteca de Javascript por separado
-2. Crear un formulario simple agregando funcionalidades de distintas bibliotecas con el
-objetivo de tener un proceso de aprendizaje significativo iterativo-incremental.
-3. ¡Mucha Paciencia!
+# links:
+https://github.com/JorgeChaar/UTN-AP-TF/ -> link al proyecto
+https://whimsical.com/dr-zapato-index-html-WcEw8fJTa837MsUgL2KvzV -> link al whimsical (boceto inicial)
