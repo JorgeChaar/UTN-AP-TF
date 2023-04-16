@@ -2,11 +2,11 @@
 Trabajo Final Curso UTN Argentina Programa - Grupo 8
 
 #Integrantes
-WALTER SEGUNDO ALBARRACIN (walter_segundo1@hotmail.com)
-JORGE CHAAR (jorgechaar2@gmail.com)
-ALEJANDRA HERRERA (aleherrera_84@hotmail.com)
-JUAN PABLO SAMUEL (juanpisamuel@gmail.com)
-NICOLAS STRUCELJ (nicolas.strucelj@gmail.com)
+- WALTER SEGUNDO ALBARRACIN (walter_segundo1@hotmail.com)
+- JORGE CHAAR (jorgechaar2@gmail.com)
+- ALEJANDRA HERRERA (aleherrera_84@hotmail.com)
+- JUAN PABLO SAMUEL (juanpisamuel@gmail.com)
+- NICOLAS STRUCELJ (nicolas.strucelj@gmail.com)
 
 Trabajo Práctico Integrador
 Objetivo
@@ -28,5 +28,5 @@ Paso a paso sugerido
 6) Pruebas de Integración (no solicitado)
 
 # links:
-https://github.com/JorgeChaar/UTN-AP-TF/ -> link al proyecto
-https://whimsical.com/dr-zapato-index-html-WcEw8fJTa837MsUgL2KvzV -> link al whimsical (boceto inicial)
+- https://github.com/JorgeChaar/UTN-AP-TF/ -> link al proyecto
+- https://whimsical.com/dr-zapato-index-html-WcEw8fJTa837MsUgL2KvzV -> link al whimsical (boceto inicial)
